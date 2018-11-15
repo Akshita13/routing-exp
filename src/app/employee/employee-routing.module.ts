@@ -6,7 +6,7 @@ import { DetailsComponent } from './details/details.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
-  { path: 'home', component: HomeComponent,outlet: 'sidebar' },
+  { path: 'home', component: HomeComponent },
   // children:[
   //    { path:'about',component:AboutComponent}
   // ] 
